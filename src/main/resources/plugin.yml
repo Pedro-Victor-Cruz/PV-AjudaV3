@@ -1,0 +1,8 @@
+name: PV-AjudaV3
+main: pv.ajuda.Main
+description: Plugin de ajuda para os players
+version: 3.0
+author: Pedro_Victor
+commands:
+  ajuda:
+    aliases: [help-me]

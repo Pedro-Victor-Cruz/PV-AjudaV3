@@ -1,0 +1,104 @@
+Discord:
+  active: true
+  name: "MetaCraft - Ajuda"
+  webhook-url: "https://discord.com/api/webhooks/936220354341404692/MmsYdq4mD3-EyDzPVMVS-uotcxFJZK4IgyKv8x8lltDs5aOPTmJ2H5Dl5mI7kQu0iJSV"
+  avatar-url: ""
+
+Embeds:
+  remove-request:
+    title: ":exclamation: Ajuda - Cancelado"
+    field1:
+      name: ":police_officer: Staff:"
+      value: "{staff}"
+      inline: true
+    field2:
+      name: ":bust_in_silhouette: Player:"
+      value: "{player}"
+      inline: true
+    footer:
+      name: "MetaCraft - Ajuda"
+      url-image: ""
+    color:
+      r: 255
+      g: 0
+      b: 0
+
+  create-request:
+    title: ":page_with_curl: Ajuda - Pedido"
+    field1:
+      name: ":bust_in_silhouette: Player:"
+      value: "{player}"
+      inline: true
+    field2:
+      name: ":map: Mundo:"
+      value: "{world}"
+      inline: true
+    footer:
+      name: "MetaCraft - Suporte"
+      url-image: ""
+    color:
+      r: 9
+      g: 255
+      b: 0
+
+  accept-request:
+    title: ":white_check_mark: Ajuda - Pedido Aceito"
+    field1:
+      name: ":bust_in_silhouette: Player:"
+      value: "{player}"
+      inline: true
+    field2:
+      name: ":police_officer: Staff:"
+      value: "{staff}"
+      inline: true
+    field3:
+      name: ":star: Nova pontuação:"
+      value: "Pontuação: {point}"
+      inline: false
+    footer:
+      name: "MetaCraft - Suporte"
+      url-image: ""
+    color:
+      r: 0
+      g: 255
+      b: 255
+
+  mute:
+    title: ":octagonal_sign: Ajuda - Mute"
+    field1:
+      name: ":police_officer: Staff:"
+      value: "{staff}"
+      inline: true
+    field2:
+      name: ":bust_in_silhouette: Player:"
+      value: "{player}"
+      inline: true
+    field3:
+      name: ":hourglass_flowing_sand: Tempo:"
+      value: " {temp}"
+      inline: false
+    footer:
+      name: "MetaCraft - Suporte"
+      url-image: ""
+    color:
+      r: 255
+      g: 255
+      b: 0
+
+  unmute:
+    title: ":octagonal_sign: Ajuda - Unmute"
+    field1:
+      name: ":police_officer: Staff:"
+      value: "{staff}"
+      inline: true
+    field2:
+      name: ":bust_in_silhouette: Player:"
+      value: "{player}"
+      inline: true
+    footer:
+      name: "MetaCraft - Suporte"
+      url-image: ""
+    color:
+      r: 255
+      g: 0
+      b: 0

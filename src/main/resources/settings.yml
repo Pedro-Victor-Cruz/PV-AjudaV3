@@ -1,0 +1,55 @@
+# Arquivo de configuração
+
+# Autor: Pedro_Victor
+# Version: 3.0
+# Permissions:
+# - pv.ajuda - Permissão para aceitar os pedidos de ajuda
+# - pv.ajuda.top - Permissão para abrir o menu de TOP
+# - pv.ajuda.list - Permissão para abrir o menu de pedidos de ajuda
+# - pv.ajuda.cancel - Permissão para cancelar um pedido de ajuda no menu pedidos de ajuda
+# - pv.ajuda.cancel.all - Permissão para cancelar todos os pedidos de ajuda no menu de pedidos de ajuda
+# - pv.ajuda.top.options - Permissão para abrir o menu de opções no menu de TOP
+# - pv.ajuda.top.add.point - Permissão para adicionar ponto
+# - pv.ajuda.top.remove.point - Permissão para remover ponto
+# - pv.ajuda.top.reset.point - Permissão para resetar pontos
+# - pv.ajuda.top.remove - Permissão para remover do TOP
+# - pv.ajuda.mute - Permissão para bloquear o uso do /ajuda
+# - pv.ajuda.unmute - Permissão para desbloquear o uso do /ajuda
+
+messages:
+  message-to-player: " &a✔ &eSeu pedido de ajuda foi enviado !\n &6➥ &eAguarde, um staff vira até você para te ajudar."
+  message-to-staff:
+    - ""
+    - " &8▏ &b✦ ⎛ &aPedido de ajuda &b⎞ ✦" #foi
+    - " &8▏"
+    - " &8▏ &b➥ &bPlayer: &a{player}"
+    - " &8▏ &b➥ &bMundo: &a{world}"
+    - " &8▏"
+    - " &8▏ &b『 &bClique &a[AQUI] &bpara aceitar &b』" #foi
+    - ""
+  has-open-request: " &7➥ &cVocê já possui um pedido de ajuda aberto ! \n Utilize &4/ajuda cancelar &cpara cancelar seu pedido."
+  request-cancel: " &6➥ &eSeu pedido de ajuda foi cancelado, caso precise de ajuda novamente utilize /ajuda."
+  request-close-by-staff: " &6➥ &ePedido de ajuda do player &6{player} &efechado pelo staff &6{staff}&e"
+  not-request-open: " &7➥ &cEste jogador não tem nenhum pedido de ajuda aberto !"
+  request-accept-by-staff: " \n &a✔ &ePedido de ajuda do &6{player} &eaceito ! \n &7➥ &eStaff: &6{staff}\n "
+  request-accept: " &7➥ &eSeu pedido de ajuda foi aceito pelo staff &6{staff}&6."
+  not-permission: " &7➥ &cPermissões insuficiente !"
+  mute: " &7➥ &cVocê está bloqueado de pedir ajuda !\n    &cTempo restante: &4{temp}"
+  unmute: " &7➥ &cVocê foi debloqueado para pedir ajuda pelo o staff {staff} !"
+  received-mute: " &7➥ &cVocê foi bloqueado de usar o /ajuda pelo o staff {staff} !\n &7{!} &cTempo: &4{temp}"
+
+commands:
+  - ""
+  - "&6Lista de comandos:"
+  - ""
+  - "&7➥ &e/ajuda lista &6- &eLista todos os pedidos de ajuda"
+  - "&7➥ &e/ajuda top &6- &eMostra o top dos staffs"
+  - "&7➥ &e/ajuda cancelar &6- &eCancela seu pedido de ajuda aberto"
+  - "&7➥ &e/ajuda aceitar <player> &6- &eAceita o pedido de ajuda do player"
+  - ""
+
+inventorys:
+  request-list:
+    inventory-name: "&6Lista de pedidos aberto"
+  top:
+    inventory-name: "&6Top dos staffs"
